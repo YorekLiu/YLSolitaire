@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/camera_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageButton
+        android:id="@+id/button_capture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/capture"
+        android:background="@drawable/shutter_button_bg_selector"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="48dp" />
+
+    <ImageButton
+        android:id="@+id/button_switch_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/switch_camera"
+        android:src="@drawable/lacrosse_btn_ff_switch"
+        android:background="@drawable/capture_delete_done_selector"
+        android:layout_gravity="start|bottom"
+        android:layout_marginBottom="56dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp" />
+
+    <yorek.com.solitaire.util.photochooser.CapturePreviewLayout
+        android:id="@+id/capture_preview_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+</FrameLayout>

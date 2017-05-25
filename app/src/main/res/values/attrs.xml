@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PokerPileViewGroup">
+        <attr name="orientation" format="enum">
+            <enum name="vertical" value="0" />
+            <enum name="horizontal" value="1" />
+        </attr>
+        <attr name="flag" format="enum">
+            <enum name="OP1" value="0x01" />
+            <enum name="OP2" value="0x02" />
+            <enum name="OP3" value="0x03" />
+            <enum name="OP4" value="0x04" />
+            <enum name="OP5" value="0x05" />
+            <enum name="OP6" value="0x06" />
+            <enum name="OP7" value="0x07" />
+            <enum name="TR1" value="0x11" />
+            <enum name="TR2" value="0x12" />
+            <enum name="TR3" value="0x13" />
+            <enum name="TR4" value="0x14" />
+        </attr>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">纸牌</string>
+    <string name="action_settings">设置</string>
+    <string name="color_selector">背景</string>
+    <string name="congratulation">恭喜</string>
+    <string name="game_level">游戏难度</string>
+    <string name="level">难度 : <xliff:g>%1$s</xliff:g></string>
+    <string name="level_easy">简单</string>
+    <string name="level_hard">困难</string>
+    <string name="level_normal">正常</string>
+    <string name="restart">重新开始</string>
+    <string name="step">步数: <xliff:g>%1$d</xliff:g></string>
+    <string name="theme">主题</string>
+    <string name="time">计时: <xliff:g>%1$d</xliff:g></string>
+    <string name="you_win">再来一次</string>
+    <string name="album">相册</string>
+    <string name="call_camera">调用相机</string>
+    <string name="camera">相机</string>
+    <string name="error_in_parse_color">转换颜色错误</string>
+    <string name="restore">恢复默认</string>
+    <string name="capture">Capture</string>
+    <string name="msg_no_camera_detected">No camera detected.</string>
+    <string name="msg_camera_not_available">Camera is not available.</string>
+
+    <string name="shortcuts_level_hard_long">困难难度</string>
+    <string name="shortcuts_level_normal_long">正常难度</string>
+    <string name="shortcuts_level_easy_long">简单难度</string>
+    <string name="selected">正在使用</string>
+</resources>

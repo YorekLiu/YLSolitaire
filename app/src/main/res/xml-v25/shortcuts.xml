@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="level_hard"
+        android:enabled="true"
+        android:icon="@mipmap/ic_hard_level"
+        android:shortcutShortLabel="@string/shortcuts_level_hard_short"
+        android:shortcutLongLabel="@string/shortcuts_level_hard_long">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="content://yorek.com.solitaire/level_hard"
+            android:targetPackage="yorek.com.solitaire"
+            android:targetClass="yorek.com.solitaire.ui.SplashActivity"/>
+        <categories android:name="android.shortcut.conversation"/>
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="level_normal"
+        android:enabled="true"
+        android:icon="@mipmap/ic_normal_level"
+        android:shortcutShortLabel="@string/shortcuts_level_normal_short"
+        android:shortcutLongLabel="@string/shortcuts_level_normal_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="content://yorek.com.solitaire/level_normal"
+            android:targetPackage="yorek.com.solitaire"
+            android:targetClass="yorek.com.solitaire.ui.SplashActivity" />
+        <categories android:name="android.shortcut.conversation"/>
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="level_easy"
+        android:enabled="true"
+        android:icon="@mipmap/ic_easy_level"
+        android:shortcutShortLabel="@string/shortcuts_level_easy_short"
+        android:shortcutLongLabel="@string/shortcuts_level_easy_long">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="content://yorek.com.solitaire/level_easy"
+            android:targetPackage="yorek.com.solitaire"
+            android:targetClass="yorek.com.solitaire.ui.SplashActivity" />
+        <categories android:name="android.shortcut.conversation"/>
+    </shortcut>
+</shortcuts>

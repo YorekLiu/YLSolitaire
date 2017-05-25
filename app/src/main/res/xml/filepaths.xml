@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- visit https://developer.android.com/reference/android/support/v4/content/FileProvider.html-->
+<paths>
+    <external-cache-path name="temp_picture" path="." />
+</paths>
