@@ -14,15 +14,15 @@ Android微软纸牌游戏，支持八种皮肤、三种难度、7.1新特性App 
 
 ### 皮肤截图
 
-![皮肤截图](https://code.csdn.net/u013412764/solitaire/blob/master/theme.png)
+![皮肤截图](https://raw.githubusercontent.com/YorekLiu/YLSolitaire/master/theme.png)
 
 ### App Shortcuts
 
-![App Shortcuts](https://code.csdn.net/u013412764/solitaire/blob/master/shortcuts.png)
+![App Shortcuts](https://raw.githubusercontent.com/YorekLiu/YLSolitaire/master/shortcuts.png)
 
 ### 自定义背景
 
 可以使用RGB颜色代码、从图库选择、调用三方相机拍摄以及使用自定义相机拍摄
 
-![自定义背景](https://code.csdn.net/u013412764/solitaire/blob/master/change_bg.png)
+![自定义背景](https://raw.githubusercontent.com/YorekLiu/YLSolitaire/master/change_bg.png)
 
